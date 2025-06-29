@@ -1,0 +1,179 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Righteous;
+}
+body {
+      background-color: #000;
+      color: #fff;
+    }
+
+header {
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #000;
+}
+
+header .logo {
+      color: #ff4500;
+      font-size: 22px;
+      font-weight: bold;
+}
+
+nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+}
+
+nav a:hover {
+      color: #ff4500;
+    }
+
+.hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 50px;
+    }
+
+.hero-text h1 {
+      font-size: 48px;
+    }
+
+.hero-text span {
+      color: #ff4500;
+    }
+
+.hero-text p {
+      color: #aaa;
+      margin: 10px 0;
+    }
+
+.hero-text button {
+      background-color: #ff4500;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+.hero img {
+      width: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 1px 1px 80px red;
+    }
+
+.about {
+      display: flex;
+      padding: 50px;
+      justify-content: space-between;
+    }
+
+.about img {
+      width: 250px;
+      border-radius: 20%;
+      box-shadow: 1px 1px 80px red;
+    }
+
+.about-text {
+      max-width: 600px;
+    }
+
+.about-text h2,
+    .skills h2,
+    .services h2,
+    .contact h2,
+    .resume h2 {
+      border-bottom: 2px solid #ff4500;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+
+
+.skills {
+      padding: 50px;
+      background-color: #111;
+    }
+
+.skills-grid {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+.skills-grid div {
+      flex: 1;
+      min-width: 150px;
+      margin: 10px 20px;
+      color: #ff4500;
+    }
+
+.services {
+      padding: 50px;
+    }
+
+.services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+.services-grid div {
+      padding: 20px;
+      background-color: #111;
+      border-radius: 10px;
+      box-shadow: 1px 1px 10px whitesmoke;
+    }
+
+.services-grid div:hover {
+      background-color: #ff4500;
+      color: white;
+      cursor: pointer;
+    }
+
+.resume {
+      padding: 50px;
+      background-color: #111;
+      text-align: center;
+    }
+
+.resume button {
+      background-color: #ff4500;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+.contact {
+      text-align: center;
+      padding: 50px;
+    }
+
+.contact button {
+      background-color: #ff4500;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+footer {
+      text-align: center;
+      background-color: #ff4500;
+      padding: 10px;
+      color: white;
+    }
